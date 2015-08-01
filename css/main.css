@@ -1,0 +1,155 @@
+
+/*   * {
+    border: 1px solid orange;
+}  */
+
+body {
+    /*background-image: url("../images/shoplight.jpg");
+    background-size: 100%;
+    background attachment: fixed;
+    background position: center;
+    /* border: 3px solid black; */
+}
+
+.instructionContainer, .outer-container {
+ width: 425px;
+ height: 100px;
+}
+ 
+.outer-container {
+ /* border: 5px solid purple; */
+ position: relative;
+ overflow: hidden;
+ position: absolute;
+ right: 0;
+ top: 0;
+}
+ 
+.inner-container::-webkit-scrollbar {
+ display: none;
+}
+
+.inner-container {
+ position: absolute;
+ left: 0;
+ overflow-x: hidden;
+ overflow-y: hidden;
+}
+
+.instructionContainer {
+  position: relative;
+  /* height:1px; */
+} 
+
+.instructions {
+  font-weight: bold;
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: lightblue;
+  right: 0;
+  opacity: .65;
+  position: absolute;
+  overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    font-size: 3em;
+    font-family: sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.additems {
+    font-weight: bold;
+    border: 4px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px;
+}
+
+.additems p {
+    display: inline;
+}
+
+#groceries {
+    border: 2px solid blue;
+}
+
+#addbutton {
+    border: 1px solid orange;
+}
+
+/* .space {
+    height: 25px;
+} */ 
+
+.items {
+    display: inline;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.unchecked {
+    /*position: relative;*/
+    /* height: 50px;*/
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.checked {
+    text-decoration: line-through;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.notbought {
+    /* display: inline; */
+    list-style-type: none;
+    font-weight: bold;
+}
+
+#checkbox {
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+
+#foods {
+    font-weight: bold;
+}
+
+#delete {
+    /* position: absolute; */
+    vertical-align: middle;
+    background-color: lightblue;
+    border-radius: 5px;
+    border-color: gray;
+    font-size: .5em;
+    margin-left: 20px;
+}
+
+#clearall {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 auto;
+    font-family: Times New Roman, sans-serif;
+    border: 2px solid lightcoral;
+    border-radius: 5px;
+    background-color: lightblue;
+    opacity: .85;
+}
+
+footer {
+    font-size: .75em;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}

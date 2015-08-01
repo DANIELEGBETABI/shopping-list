@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Your Shopping List App!</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="outer-container">
+    <div class="inner-container">
+    <div class="instructionContainer">
+        <select name="dropdown" class="instructions">
+        <option value="Instructions." selected>Instructions on how to use this App.</option>  
+        <option value="Type your food item in the box to add it to the list.">Type your food item in the box to add it to the list.</option>
+        <option value="Press the check button to mark it done.">Press the check button to mark it done.</option>
+        <option value="Press delete to remove it from the list.">Press delete to remove it from the list.</option>
+        </select>
+    </div>
+    </div>
+    </div>
+    
+    <h1 class="title">Shopping Bag</h1>
+    
+    <div class="container">
+    <div class="additems">
+        <p> What you like to buy? </p>  
+        <input type="text" id="groceries" placeholder="Enter your food here.">
+        <input type="button" id="addbutton" value="+">
+    </div>
+    </div>
+    
+    <div class="space"></div>
+    
+    <ul class="items">
+    </ul>
+    
+    <div class="space"></div>
+
+    <input type="button" id="clearall" value="Clear List">
+        
+<footer>
+     
+</footer>
+
+</body>
+</html>
