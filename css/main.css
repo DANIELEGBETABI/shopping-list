@@ -9,6 +9,7 @@ body {
     background attachment: fixed;
     background position: center;
     /* border: 3px solid black; */
+    font-family: 'Open Sans', sans-serif;
 }
 
 .instructionContainer, .outer-container {
@@ -56,31 +57,46 @@ body {
 .title {
     text-align: center;
     font-size: 3em;
-    font-family: sans-serif;
+    color:#49aace;
 }
+
+h1 {font-weight:normal!important;}
 
 .container {
     text-align: center;
 }
 
 .additems {
-    font-weight: bold;
-    border: 4px solid black;
-    border-radius: 5px;
-    display: inline-block;
-    padding: 2px;
+
 }
 
-.additems p {
+.instruction-content {
     display: inline;
+    clear:both;
+    color: #788a91;
 }
 
 #groceries {
-    border: 2px solid blue;
+    background: #f6f8f7 url(../images/search.png) 5% 50% no-repeat;
+    border: 1px solid #c2c7cc;
+    box-shadow: none;
+    height: 32px;
+    font-size: 14px;
+    padding: 4px 3px 3px 38px;
+    width: 200px;
+    line-height: 1.2;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
 }
 
+
 #addbutton {
-    border: 1px solid orange;
+    border: none;
+    background-color: white;
+    color: #49aace;
+    font-size: 1.3em;
+    cursor:pointer;
 }
 
 /* .space {
@@ -140,7 +156,6 @@ body {
     text-align: center;
     font-size: 1.5em;
     margin: 0 auto;
-    font-family: Times New Roman, sans-serif;
     border: 2px solid lightcoral;
     border-radius: 5px;
     background-color: lightblue;
