@@ -70,7 +70,7 @@ h1 {font-weight:normal!important;}
 
 }
 
-.instruction-content {
+.instructions-content {
     display: inline;
     clear:both;
     color: #788a91;
@@ -98,6 +98,8 @@ h1 {font-weight:normal!important;}
     font-size: 1.3em;
     cursor:pointer;
 }
+
+#addbutton:hover {color:#c2c7cc;}
 
 /* .space {
     height: 25px;
@@ -154,13 +156,16 @@ h1 {font-weight:normal!important;}
 #clearall {
     display: block;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 0.8em;
     margin: 0 auto;
-    border: 2px solid lightcoral;
-    border-radius: 5px;
-    background-color: lightblue;
     opacity: .85;
+    border: none;
+    background-color: white;
+    color:#49aace;
+    cursor:pointer;
 }
+
+#clearall:hover{color:#c2c7cc;}
 
 footer {
     font-size: .75em;
