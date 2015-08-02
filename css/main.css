@@ -64,6 +64,7 @@ h1 {font-weight:normal!important;}
 
 .container {
     text-align: center;
+    margin-bottom: 25px;
 }
 
 .additems {
@@ -101,14 +102,10 @@ h1 {font-weight:normal!important;}
 
 #addbutton:hover {color:#c2c7cc;}
 
-/* .space {
-    height: 25px;
-} */ 
 
 .items {
     display: inline;
     text-align: center;
-    font-size: 1.5em;
 }
 
 .unchecked {
@@ -129,7 +126,6 @@ h1 {font-weight:normal!important;}
 .notbought {
     /* display: inline; */
     list-style-type: none;
-    font-weight: bold;
 }
 
 #checkbox {
@@ -146,12 +142,15 @@ h1 {font-weight:normal!important;}
 #delete {
     /* position: absolute; */
     vertical-align: middle;
-    background-color: lightblue;
-    border-radius: 5px;
-    border-color: gray;
-    font-size: .5em;
-    margin-left: 20px;
+    border: none;
+    background-color: white;
+    color: #49aace;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding-left:25px;
 }
+
+#delete:hover {color:#c2c7cc;}
 
 #clearall {
     display: block;

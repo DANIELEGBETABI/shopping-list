@@ -8,7 +8,7 @@ $(document).ready(function() {
            postGrocery();
         });
         
-        //append to the list using enter
+        //apdpend to the list using enter
         $("#groceries").keydown(function(enter) {
             if (enter.keyCode==13) {
                 console.log("enter is pressed.");
@@ -23,7 +23,7 @@ $(document).ready(function() {
     //got the grocery, print it!
     function postGrocery() {
         var grocery = $("#groceries").val();
-        var listitem = '<li class="notbought"><img src="../shoppingList/images/check.jpg" alt="checkbox" id="checkbox">' +grocery+ '<input type="button" id="delete" value="Delete"> </li>'
+        var listitem = '<li class="notbought"><img src="../images/check.jpg" alt="checkbox" id="checkbox">' +grocery+ '<input type="button" id="delete" value="check"> </li>'
 
         if (grocery.indexOf(" ") !== -1 ) {
             alert("Please enter something to get from the store.");
