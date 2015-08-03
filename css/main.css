@@ -130,9 +130,9 @@ h1 {font-weight:normal!important;}
 
 #checkbox {
     vertical-align: middle;
-    height: 30px;
-    width: 30px;
-    margin-right: 20px;
+    height: 17px;
+    width: 17px;
+    margin-right: 40px;
 }
 
 #foods {
@@ -147,7 +147,7 @@ h1 {font-weight:normal!important;}
     color: #49aace;
     font-size: 1.5em;
     cursor: pointer;
-    padding-left:25px;
+    padding-left:40px;
 }
 
 #delete:hover {color:#c2c7cc;}
