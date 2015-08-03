@@ -92,6 +92,8 @@ h1 {font-weight:normal!important;}
 }
 
 
+
+
 #addbutton {
     border: none;
     background-color: white;
@@ -120,12 +122,13 @@ h1 {font-weight:normal!important;}
 .checked {
     text-decoration: line-through;
     list-style-type: none;
-    font-weight: bold;
+    color: #788a91;
 }
 
 .notbought {
     /* display: inline; */
     list-style-type: none;
+    color:#788a91;
 }
 
 #checkbox {
@@ -166,9 +169,5 @@ h1 {font-weight:normal!important;}
 
 #clearall:hover{color:#c2c7cc;}
 
-footer {
-    font-size: .75em;
-    bottom: 0;
-    left: 0;
-    position: fixed;
+position: fixed;
 }
